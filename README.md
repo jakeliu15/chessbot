@@ -2,31 +2,9 @@
 
 This project is an automated chess bot that can play live chess games by calculating the best move using the Stockfish chess engine. It captures the current chessboard state via screenshots, retrieves the board position using FEN notation, and performs moves automatically using PyAutoGUI. Random sleep intervals are added to make the bot's behavior more human-like.
 
-## Features
+## Personal Use
 
-- **Live Chess Game Play**: Automatically detects board state and makes moves in real time.
-- **FEN Position Detection**: Uses Forsyth-Edwards Notation (FEN) to accurately track the chessboard state.
-- **Stockfish Integration**: Calculates the best move using the Stockfish chess engine.
-- **Automated Moves**: PyAutoGUI is used to simulate mouse clicks and move pieces on the chessboard.
-- **Randomized Sleep Intervals**: Adds sleep intervals between moves to simulate human behavior and avoid robotic gameplay.
-
-## Prerequisites
-
-To run this project, you need the following installed:
-
-- **Python 3.x**
-- Python libraries:
-  - `stockfish` (Stockfish integration)
-  - `pyautogui` (for controlling the mouse and interacting with the screen)
-  - `pillow` (for taking screenshots)
-
-Install the required libraries by running:
-
-pip install stockfish pyautogui pillow
-
-You also need the **Stockfish chess engine**. Download it from [Stockfish's official website](https://stockfishchess.org/download/).
-
-After downloading Stockfish, ensure that the executable is accessible in your system's environment path, or specify the path when creating the Stockfish instance in your Python script.
+This project has not been adapted for other users due to potential for use in rated games. I do not condone cheating on Chess.com or any other chess platform.
 
 ## How It Works
 
